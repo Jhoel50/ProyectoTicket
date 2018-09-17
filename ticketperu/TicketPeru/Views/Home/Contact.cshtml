@@ -1,0 +1,51 @@
+﻿@model TicketPeru.Models.ContactViewModel
+
+
+
+@if (@ViewBag.Status == 0)
+{
+    <!-- Start Make-Event -->
+    <section class="make-event section">
+        <div class="container">
+            @*<p class="text-success" style="color:#ef121a !important; padding-top: 4%;">@ViewBag.StatusMessage</p>*@
+            @if (ViewBag.StatusMessage!=null)
+            {
+               <li style="color:#ef121a !important; padding-top: 4%;">@ViewBag.StatusMessage</li>
+            }
+            @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "form-modal bg-white br", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary("", new { @class = "text-danger" })<br />
+                <legend class="text-center">
+                    <span class="icon-calendar yellow"></span>
+                    <h2 class="h2 blue">Datos del Evento</h2>
+                </legend>
+                @Html.TextBoxFor(m => m.NombreEvento, new { @class = "br", @placeholder = "Nombre del Evento", @required = "required" })
+                @Html.TextBoxFor(m => m.Local, new { @class = "br", @placeholder = "Local", @required = "required" })
+                @Html.TextBoxFor(m => m.FechaEvento, new { @type = "date", @class = "br", @required = "required" })
+                @Html.DropDownListFor(x => x.TipoEvento, new SelectList(Model.tipoEventos, "Descripcion", "Descripcion"), "[- Tipo de Evento -]", new { @class = "br", @style = "padding: 14px;", @required = "required" })
+                <legend class="text-center">
+                    <span class="icon-user yellow"></span>
+                    <h2 class="h2 blue">Datos del Solicitante</h2>
+                </legend>
+                @Html.TextBoxFor(m => m.NombreSolicitante, new { @class = "br", @placeholder = "Nombre Completo", @required = "required" })
+                @Html.TextBoxFor(m => m.CorreoSolicitante, new { @class = "br", @placeholder = "Email", @type = "Email", @required = "required" })
+                @Html.TextBoxFor(m => m.TelefonoSolicitante, new { @class = "br", @placeholder = "Teléfono", @required = "required" })
+                @Html.TextAreaFor(m => m.ComentarioSolicitante, new { @class = "br", @placeholder = "Comentarios", @rows = "5", @style = "resize: none; height: 200px;" })
+                <button class="btn btn-blue br" type="submit" name="button">Enviar solicitud</button>
+            }
+        </div>
+    </section>
+    <!-- End Make-Event -->
+}
+
+else if(ViewBag.Status==1)
+{
+    <section class="exit">
+        <div class="container text-center">
+            <h2 class="h2 blue">Su mensaje ha sido enviado</h2>
+            <p class="text gray">Muchas gracias por comunicarse con nosotros, en breves momentos estaremos comunicandonos con usted.</p>
+            <a href="@Url.Action("Index","Home")" class="btn btn-blue br">Ir al inicio</a>
+        </div>
+    </section>
+}

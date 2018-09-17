@@ -1,0 +1,106 @@
+﻿@model TicketPeru.Models.HomeIndexViewModel
+    
+    <!-- Start Promo -->
+<section class="promo section bg-white">
+    <div class="container">
+        <div class="slider">
+            @foreach (var slide in Model.pasesDestacados)
+            {
+                <div class="slide">
+                    <a href="@Url.Action("EventDetail", "Home", new { PaseId = slide.ID })">
+                        <img src="@slide.ImagenMini" class="img-responsive" alt="banner"></img>
+                    </a>
+                    <div class="slide-caption">
+                        <div class="col">
+                            <h2 class="h2 white">
+                                @slide.DescripcionEstadoPase
+                            </h2>
+                            <p class="text white">
+                                @slide.DescripcionPase
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="white">
+                                04 de octubre 2018
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</section>
+
+<!-- End Promo -->
+
+
+<!-- Start Events -->
+<section class="events">
+    <div class="container">
+        <div class="title text-center">
+            <h2 class="h2">
+                <span class="gray">
+                    Guía
+                </span>
+                <span class="red">
+                    de Eventos
+                </span>
+            </h2>
+            <div class="calendar">
+                <span class="icon-calendar yellow">
+                </span>
+            </div>
+        </div>
+        <div class="grid-3">
+            @foreach (var evento in Model.eventos)
+            {
+                foreach (var pase in Model.pases.Where(x => x.EventoID == evento.ID))
+                {
+                    <article class="event bg-white br">
+                        <div class="event-img br">
+                            <img src="@pase.Imagen" style="width: 360px; height: 263px;">
+                            <a class="event-overlay" href="evento-detalle.html">
+                                <!--
+                                <a href="evento-detalle.html" class="bg-white">
+                                    <span class="icon-search blue"></span>
+                                </a>
+                                -->
+                            </a>
+                        </div>
+                        <h3 class="h3 gray">
+                            @pase.NombrePase
+                        </h3>
+                        <div class="date">
+                            <span class="icon-calendar yellow">
+                            </span>
+                            <span class="gray">
+                                @{DateTime fechaPase = Convert.ToDateTime(pase.FechaPase);
+                                    String Mes = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(fechaPase.Month);
+                                    string sDia = string.Format("{0:#}", fechaPase.Day);
+                                    Mes = Mes.Substring(0, 1).ToUpper() + Mes.Substring(1);
+
+                                }
+                                @Mes @sDia.PadLeft(2, '0') , @fechaPase.Year
+                            </span>
+                        </div>
+                        <div class="view-more">
+                            <div class="text">
+                                <span class="icon-location yellow">
+                                </span>
+                                <span class="gray">
+                                    @pase.NombreRecinto
+                                </span>
+                            </div>
+                            <a class="bg-blue text-center" href="@Url.Action("EventDetail", "Home", new { PaseId = pase.ID })" >
+                                <span class="icon-right-arrow white">
+                                </span>
+                            </a>
+                        </div>
+                    </article>
+                                        }
+                                    }
+        </div>
+    </div>
+</section>
+<!-- End Events -->

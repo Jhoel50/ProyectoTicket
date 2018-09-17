@@ -1,0 +1,84 @@
+﻿@model TicketPeru.Models.ClaimViewModel
+
+    <style>
+        .settingSection .settingContent .form-control {
+            width: 100%;
+        }
+    </style>
+
+    <style>
+        .btn-primary {
+            color: #fff;
+            background-color: #173863;
+            border-color: #173863;
+        }
+
+            .btn-primary:hover {
+                color: #fff;
+                background-color: #232629;
+                border-color: #232629;
+            }
+    </style>
+
+    <!-- ACCOUNT SETTINGS SECTION -->
+    <section class="settingSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 hidden-xs hidden-sm"></div>
+                <div class="col-md-6 col-xs-12 col-sm-12">
+                    <div class="settingContent bg-ash text-center" style="padding: 20px;">
+                        <h4><i class="fa fa-address-card-o" style="color:#262a2e;" aria-hidden="true"></i>&nbsp;Libro de Reclamaciones</h4>
+                        <hr style="margin-bottom: 0px;" />
+                        <p class="text-success" style="color:#3c763d !important; padding-top: 4%;">@ViewBag.StatusMessage</p>
+                        <div class="row text-center">
+                            @using (Html.BeginForm("Claim", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary("", new { @class = "text-danger" })<br />
+                                <div class="col-sm-12">
+                                    <h4>Datos Personales</h4>
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Nombres, new { @class = "form-control", @placeholder = "Nombre", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Apellidos, new { @class = "form-control", @placeholder = "Apellidos", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.DNI, new { @class = "form-control", @placeholder = "DNI", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Telefono, new { @class = "form-control", @placeholder = "Teléfono", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Direccion, new { @class = "form-control", @placeholder = "Dirección", @required = "required" })
+                                </div>
+                                <div class="col-sm-12" style="padding-top: 2%;">
+                                    <h4>Datos de la Incidencia</h4>
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.DropDownListFor(x => x.Incidencia, TicketPeru.Models.ClaimViewModel.Incidencias, "[- Incidencia -]", new { @class = "form-control", @style = "padding: 14px;" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.DropDownListFor(x => x.Tipo, TicketPeru.Models.ClaimViewModel.Tipos, "[- Relacionado a -]", new { @class = "form-control", @style = "padding: 14px;" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.DescripcionTipo, new { @class = "form-control", @placeholder = "Descripción Producto o Servicio", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextAreaFor(m => m.DescripcionReclamo, new { @class = "form-control", @placeholder = "Detalles del Reclamo", @rows = "5", @style = "resize: none; height: 200px;" })
+                                </div>
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-block btn-primary" style="width: 100%;">Enviar Solicitud</button>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 hidden-xs hidden-sm"></div>
+            </div>
+        </div>
+    </section>

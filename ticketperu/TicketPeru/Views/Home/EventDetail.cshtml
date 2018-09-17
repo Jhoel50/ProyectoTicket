@@ -1,0 +1,135 @@
+﻿@model TicketPeru.Models.EventDetailViewModel
+@using TicketPeru.Util.Helpers;
+    <!-- Start Event-Detail -->
+<section class="section-into event-detail">
+    <div class="container">
+        <div class="grid-ed">
+            <div class="content bg-white br">
+                <h2 class="h2 gray">@Model.paseActual.NombrePase</h2>
+                <img class="img-responsive br" src="@Model.paseActual.ImagenMedia" alt="evento">
+
+                <div class="header-ed">
+                    <h3 class="h3 blue">Descripción</h3>
+                    <div class="date">
+                        <span class="icon-calendar yellow"></span>
+                        <span class="text gray">&nbsp;@{DateTime fechaPase = Convert.ToDateTime(Model.paseActual.FechaPase);
+                            String Mes = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(fechaPase.Month);
+                            string sDia = string.Format("{0:#}", fechaPase.Day);
+                            Mes = Mes.Substring(0, 1).ToUpper() + Mes.Substring(1);
+
+                        }
+                        @Mes @sDia.PadLeft(2, '0') , @fechaPase.Year</span>
+                    </div>
+                </div>
+
+                <p class="text gray">@Model.paseActual.DescripcionLargaPase</p>
+
+                @*<h4 class="h4 gray">Nick Carter VIP Upgrade</h4>
+                <ul class="list-ed">
+                    <li class="text gray">Conozca y salude individualmente con Nick Carter.</li>
+                    <li class="text gray">Fotografía individual con Nick Carter.</li>
+                    <li class="text gray">Conmemorativo Souvenir VIP Laminate.</li>
+                    <li class="text gray">Multitud de mercancía gratis de compras.</li>
+                    <li class="text gray">Cartel autografiado de edición limitada.</li>
+                    <li class="text gray">Primera entrada en el lugar (cuándo / dónde está disponible).</li>
+                </ul>
+
+                <h4 class="h4 gray">Paquete de actualización VIP definitivo de nick</h4>
+                <ul class="list-ed">
+                    <li class="text gray">Salón Backstage.</li>
+                    <li class="text gray">Champagne Toast.</li>
+                    <li class="text gray">Asiento lateral.*</li>
+                    <li class="text gray">Conozca y salude individualmente con Nick Carter.</li>
+                    <li class="text gray">Fotografía individual con Nick Carter.</li>
+                    <li class="text gray">Conmemorativo Souvenir VIP Laminate.</li>
+                    <li class="text gray">Multitud de mercancía gratis de compras.</li>
+                    <li class="text gray">Cartel autografiado de edición limitada.</li>
+                    <li class="text gray">Primera entrada en el lugar (cuándo / dónde está disponible).</li>
+                </ul>*@
+
+                <div class="iframe-ed">
+                    @*<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62414.246431586434!2d-77.01972938663961!3d-12.119783041176406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe48cd93c1fb87b7c!2sTeleticket+Benavides!5e0!3m2!1ses!2spe!4v1535332633415"></iframe>*@
+                   @Html.Raw(@Model.eventoActual.CodigoExtra)
+                </div>
+            </div>
+
+            <aside class="aside">
+                <div class="aside-ed bg-white br">
+                    <div class="block tickets">
+                        <h4 class="h4 gray">
+                            <span class="icon-tickets yellow"></span>&nbsp;&nbsp;Entradas
+                        </h4>
+
+                        @*<ul>
+                            <li class="text gray">
+                                <span>Venta especial</span>
+                                <span>S/. 99.00</span>
+                            </li>
+                            <li class="text gray">
+                                <span>Pre-venta General</span>
+                                <span>S/. 139.00</span>
+                            </li>
+                            <li class="text gray">
+                                <span>Precio Regular</span>
+                                <span>S/. 159.00</span>
+                            </li>
+                            <li class="text gray">
+                                <span>VIP</span>
+                                <span class="sold-out btn bg-white red">Agotado</span>
+                            </li>
+                        </ul>*@
+                        <ul>
+                            @foreach (var producto in Model.ListProductos)
+                            {
+                                <li class="text gray">
+                                    <span>@producto.NombreSector</span>
+                                    <span>S/. @String.Format("{0:0.00}",producto.precio)</span>
+                                </li>
+                            }
+                        </ul>
+
+                        <a href="#" class="btn btn-red br">Comprar</a>
+                    </div>
+
+                    <div class="block date-time">
+                        <h4 class="h4 gray">
+                            <span class="icon-calendar yellow"></span>&nbsp;&nbsp;Fecha y Hora
+                        </h4>
+
+                        @*<p class="text gray">Lun, 10 de septiembre de 2018</p>*@
+                        <p class="text gray">
+                            @{DateTime fechaPase1 = Convert.ToDateTime(Model.paseActual.FechaPase);
+                                String dia = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetDayName(fechaPase1.DayOfWeek);
+                                dia = dia.Substring(0, 1).ToUpper() + dia.Substring(1);
+                            }
+                            @dia, @sDia.PadLeft(2, '0') @Mes @fechaPase.Year
+                        </p>
+                        <p class="text gray">
+                            <span>@fechaPase1.ToString("hh:mm tt", System.Globalization.CultureInfo.InvariantCulture)</span>
+                            <span>Hora estándar de Perú Hora del Perú</span>
+                        </p>
+                    </div>
+
+                    <div class="block location">
+                        <h4 class="h4 gray">
+                            <span class="icon-location yellow"></span> Ubicación
+                        </h4>
+
+                        <p class="text gray">
+                            <span>@Model.paseActual.NombreRecinto</span>
+                            @*<span>Barranco Arena</span>*@
+                        </p>
+
+                        @*<p class="text gray">154 Catalino Miranda</p>
+
+                    <p class="text gray">
+                        <span>Barranco, Municipalidad</span>
+                        <span>Metropolitana de Lima 15049</span>
+                    </p>*@
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</section>
+<!-- End Event-Detail -->

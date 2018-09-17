@@ -1,0 +1,40 @@
+﻿@model TicketPeru.Models.IndexViewModel
+
+<section class="recentOfferSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 ">
+                <div class="recentOfferContent bg-ash" style="background-color: #fff;">
+                    <div class="row">
+                        <!-- Benifits Aria -->
+                        <div class="col-xs-12 col-sm-12">
+                            <div class="benefitsAria">
+                                <h4 style="font-size: 18px; font-weight: 600;">Configuraciones</h4>
+                                <p class="text-success">@ViewBag.StatusMessage</p>
+                                <div class="benifitsContent" style="border-radius: 0px; background-color: #f7f7f7;">
+                                    <ul>
+                                        <li><a href=""><i class="fa fa-user" aria-hidden="true"></i>@Html.ActionLink("Editar Información Personal", actionName: "Edit", controllerName: "User") </a></li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa fa-lock" aria-hidden="true"></i>
+                                                @if (Model.HasPassword)
+                                                {
+                                                    @Html.ActionLink("Cambiar Contraseña", "ChangePassword")
+                                                }
+                                                else
+                                                {
+                                                    @Html.ActionLink("Create", "SetPassword")
+                                                }
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

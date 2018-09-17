@@ -1,0 +1,82 @@
+﻿@model TicketPeru.Models.MensajeViewModel
+
+<style>
+    .settingSection .settingContent .form-control {
+        width: 100%;
+    }
+</style>
+
+<style>
+    .btn-primary {
+        color: #fff;
+        background-color: #173863;
+        border-color: #173863;
+    }
+
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #232629;
+            border-color: #232629;
+        }
+</style>
+
+<!-- ACCOUNT SETTINGS SECTION -->
+<section class="settingSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 hidden-xs hidden-sm"></div>
+            <div class="col-md-6 col-xs-12 col-sm-12">
+                <div class="settingContent bg-ash text-center" style="padding: 20px;">
+                    <h4><i class="fa fa-address-card-o" style="color:#262a2e;" aria-hidden="true"></i>&nbsp;<b>Siempre es un placer atenderlos</b></h4>
+                    <hr style="margin-bottom: 0px;" />
+                    <p class="text-success" style="color:#3c763d !important; padding-top: 4%;">@ViewBag.StatusMessage</p>
+                    <div class="row text-center">
+                        @using (Html.BeginForm("Mensajes", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary("", new { @class = "text-danger" })<br />
+                            <div class="col-sm-12">
+                                <div class="media">
+                                    <a class="media-left" href="#"><i aria-hidden="true"></i></a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Deje su mensaje</h4>
+                                        <h5>
+                                            Por favor, deje un mensaje y nos pondremos en contacto con usted en breve.<br><br>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Nombres, new { @class = "form-control", @placeholder = "Nombre", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Apellidos, new { @class = "form-control", @placeholder = "Apellidos", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email", @required = "required" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextBoxFor(m => m.Empresa, new { @class = "form-control", @placeholder = "Empresa", @required = "required" })
+                                </div>
+                              
+                                <div class="col-sm-12" style="padding-top: 2%;">
+                                    <h4>Mensaje</h4>
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.TextAreaFor(m => m.Mensaje, new { @class = "form-control", @placeholder = "Su pregunta", @rows = "5", @style = "resize: none; height: 200px;" })
+                                </div>
+                                <div class="col-sm-12">
+                                    @Html.DropDownListFor(x => x.Departamento, TicketPeru.Models.MensajeViewModel.Departamentos, "[- Departamento -]", new { @class = "form-control", @style = "padding: 14px;" })
+                                </div>
+                                
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-block btn-primary" style="width: 100%;">Enviar Mensaje</button>
+                                </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 hidden-xs hidden-sm"></div>
+        </div>
+    </div>
+</section>

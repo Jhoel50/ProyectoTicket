@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+
+    <ul class="headerTopNavbar navbar-right">
+        <li>
+            <i class="fa fa-user" style="color:#fff;"></i>&nbsp;@Html.ActionLink(User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+        </li>
+        <li>
+            <i class="fa fa-shopping-cart" style="color:#fff;"></i>&nbsp;@Html.ActionLink("Historial de Compras", "MyPurchases", "Home")
+        </li>
+        <li>
+            <a href="javascript:document.getElementById('logoutForm').submit()"><i class="fa fa-sign-out" style="color:#fff;" aria-hidden="true"></i>&nbsp;Cerrar Sesión</a>
+        </li>
+    </ul>
+    }
+}
+else
+{
+    <ul class="headerTopNavbar navbar-right">
+        <li class="active"><i class="fa fa-address-card-o" style="color:#fff;" aria-hidden="true"></i>&nbsp;@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li class="active"><i class="fa fa-sign-in" style="color:#fff;"  aria-hidden="true"></i>&nbsp;@Html.ActionLink("Iniciar Sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

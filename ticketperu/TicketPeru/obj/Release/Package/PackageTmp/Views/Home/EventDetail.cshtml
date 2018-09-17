@@ -1,0 +1,125 @@
+﻿@model TicketPeru.Models.EventDetailViewModel
+@using TicketPeru.Util.Helpers;
+
+<style>
+    .btn-primary {
+        color: #fff;
+        background-color: #173863;
+        border-color: #173863;
+    }
+
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #232629;
+            border-color: #232629;
+        }
+</style>
+
+<!-- PAGE TITLE -->
+<section class="pageTitle" style="margin-top: 0px;background-image:url('@Url.Content("~/Content/img/home/page-title-bg12.jpg")');">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="titleTable">
+                    <div class="titleTableInner">
+                        <div class="pageTitleInfo">
+                            <h1>@Model.paseActual.NombrePase</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PAGE CONTENT -->
+<section class="mainContentSection singlePackage">
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-8 col-xs-12">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="@Model.paseActual.ImagenMedia" style="width: 100%;">
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="description-aria">
+                            <div class="sectionTitle2" style="text-align: justify;">
+                                <h2>Descripción</h2>
+                                @Model.paseActual.DescripcionLargaPase
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="col-sm-4 col-xs-12">
+                <div class="contactInfo">
+                    <h2>Información</h2>
+                    <p>Conoce todos los detalles acerca del evento</p>
+                    <hr />
+                    <div class="media">
+                        <a class="media-left">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Lugar</h4>
+                            <p>@Model.paseActual.NombreRecinto</p>
+                            <a href="@Model.eventoActual.CodigoExtra" target="_blank">Ver en Google Maps</a>
+                        </div>
+                    </div>
+
+                    @if (Model.paseActual.FechaPorConfirmar == ConstantHelpers.ESTADO_ACTIVO)
+                    {
+                        <div class="media">
+                            <a class="media-left">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Fecha</h4>
+                                <p> Por Confirmar</p>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        DateTime fechaPase = Convert.ToDateTime(Model.paseActual.FechaPase);
+                        String Mes = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(fechaPase.Month);
+                        <div class="media">
+                            <a class="media-left">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Fecha</h4>
+                                <p>@fechaPase.Day @Mes.Substring(0, 3).ToUpper() @fechaPase.Year</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <a class="media-left">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Hora</h4>
+                                <p>@fechaPase.ToString("HH:mm")</p>
+                            </div>
+                        </div>
+                    }
+                    <hr />
+                    <div class="col-sm-12">
+                        @if (Model.paseActual.EstadoPase == ConstantHelpers.ESTADO_EVENTO_VENTA)
+                        {
+                            <a href="@Url.Action("Purchase", "Home", new { TicketPeruPaseId = Model.paseActual.ID })" class="btn btn-block btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;@Model.paseActual.DescripcionEstadoPase</a>
+                        }
+                        else if (Model.paseActual.EstadoPase == ConstantHelpers.ESTADO_EVENTO_PROXIMO)
+                        {
+                            <a href="#" class="btn btn-block btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;@Model.paseActual.DescripcionEstadoPase</a>
+                        }
+                        else
+                        {
+                            <a href="#" class="btn btn-block btn-primary"><i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;@Model.paseActual.DescripcionEstadoPase</a>
+                        }
+                        <a href="@Url.Action("Index", "Home")" class="btn btn-block btn-default"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;Regresar</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</section>

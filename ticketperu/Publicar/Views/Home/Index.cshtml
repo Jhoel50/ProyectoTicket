@@ -1,0 +1,165 @@
+﻿@using TicketPeru.Util.Helpers;
+@using Microsoft.AspNet.Identity;
+@model TicketPeru.Models.HomeIndexViewModel
+
+<!-- PAGE CONTENT -->
+<section class="mainContentSection singlePackage" style="padding: 25px 0 0px !important; background-image: url('@Url.Content("~/Content/img/wallpaper-banner.jpg")'); ">
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-12 col-xs-12">
+
+                <div id="package-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        @{ var classActiveIndicator = "active"; var countIndicator = 1;}
+
+                        @foreach (var slide in Model.pasesDestacados)
+                        {
+                            <li data-target="#package-carousel" data-slide-to="@countIndicator" class="@classActiveIndicator"></li>
+
+                            countIndicator = countIndicator + 1;
+
+                            if (countIndicator > 1) { classActiveIndicator = ""; }
+                        }
+                    </ol>
+                    <div class="carousel-inner" style="border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; ">
+                        @{ var classActiveSlide = "active"; var countSlide = 1;}
+
+                        @foreach (var slide in Model.pasesDestacados)
+                        {
+                            <div class="item @classActiveSlide">
+                                <img src="@slide.ImagenMini" style="max-width: 100%; max-height: 310px;">
+                            </div>
+
+                            countSlide = countSlide + 1;
+
+                            if (countSlide > 1) { classActiveSlide = ""; }
+                        }
+                    </div>
+                    <a class="left carousel-control" href="#package-carousel" data-slide="prev"><span class="glyphicon glyphicon-menu-left" style="width: 35px;"></span></a>
+                    <a class="right carousel-control" href="#package-carousel" data-slide="next"><span class="glyphicon glyphicon-menu-right" style="width: 35px;"></span></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="darkSection" style="padding: 25px 0; background-color: #404040;">
+    <div class="container">
+        <div class="row gridResize">
+            @using (Html.BeginForm("Index", "Home", new { Mes = Model.Meses, TipoEvento = Model.TipoEvento, Filtro = Model.Filtro }))
+            {
+                <div class="col-sm-4 col-xs-12">
+                    <div class="sectionTitleDouble text-center">
+                        <h2 style="color: #fff; font-size: 21px; padding-top: 15px;">ESCOGE TU EVENTO</h2>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-xs-12">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="searchTour">
+                                @Html.DropDownListFor(x => x.Filtro, TicketPeru.Models.HomeIndexViewModel.Filtros, "[- Filtros -]", new { @class = "select-drop" })
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="searchTour">
+                                @Html.DropDownListFor(x => x.TipoEvento, new SelectList(Model.tipoEventos, "ID", "Descripcion"), "[- Categorías -]", new { @class = "select-drop" })
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="searchTour">
+                                @Html.DropDownListFor(x => x.Meses, TicketPeru.Models.HomeIndexViewModel.MesesFiltro, "[- Meses -]", new { @class = "select-drop" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1 hidden-xs"></div>
+                @*<div class="col-sm-2 col-xs-12">
+                    <button type="submit" class="btn btn-block buttonCustomPrimary">Buscar</button>
+                </div>*@
+            }
+        </div>
+    </div>
+</section>
+
+
+<section class="whiteSection" style="padding: 30px 0 150px; background-image: url('@Url.Content("~/Content/img/wallpaper-banner2.jpg")');">
+    <div class="container">
+        <div class="row isotopeContainer">
+            @foreach (var evento in Model.eventos)
+            {
+                foreach (var pase in Model.pases.Where(x => x.EventoID == evento.ID))
+                {
+                    <div class="col-sm-6 col-md-4 col-xs-12 isotopeSelector @evento.TipoEventoID">
+                        <div class="thumbnail deals" style="box-shadow: 0 3px 10px rgba(0, 0, 0, .1);">
+                            <img src="@pase.Imagen" style="width: 360px; height: 263px;">
+                            <a href="@Url.Action("EventDetail", "Home", new { PaseId = pase.ID })" class="pageLink"></a>
+                            <div class="discountInfo discountCol-3">
+                                <ul class="list-inline duration" style="background-color: #173863;padding-left: 10px;">
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Estadio Nacional de Lima</li>
+                                </ul>
+                            </div>
+                            <div class="caption">
+                                <div style="min-height: 32px !important;"><h4><a href="@Url.Action("EventDetail", "Home", new { PaseId = pase.ID })" class="captionTitle">@pase.NombrePase</a></h4></div>
+                                <ul class="list-inline detailsBtn"></ul>
+                                <div class="detailsInfo" style="text-align:center;">
+                                    @*<h5 style="font-weight: 600;"><span>Desde</span> S/. @String.Format("{0:N2}", pase.PrecioMinimo) </h5>*@
+                                    @*<h5 style="font-weight:1200;"><span>Cuando:</span> </h5>*@
+                                    <ul class="list-inline detailsBtn">
+                                        @if (pase.FechaPorConfirmar == ConstantHelpers.ESTADO_ACTIVO)
+                                        {
+                                            <li><span class="textInfo"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Por Confirmar</span></li>
+                                        }
+                                        else
+                                        {
+                                            DateTime fechaPase = Convert.ToDateTime(pase.FechaPase);
+                                            String Mes = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(fechaPase.Month);
+                                            <li><span class="textInfo"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;@fechaPase.Day @Mes.Substring(0, 3) @fechaPase.Year</span></li>
+                                            <li><span class="textInfo"><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;@fechaPase.ToString("HH:mm")</span></li>
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>
+
+@if (Request.IsAuthenticated && User.Identity.GetUserName() == ConstantHelpers.CORREO_ADMINISTRADOR)
+{
+    <section class="adminSection">
+        <div style="text-align:center;">
+            <p id="messageSync" style="margin-bottom:30px; color:#173863; font-size: medium;"></p>
+        </div>
+        <div class="sync">
+            <button class="btn btn-block buttonCustomPrimary" style="max-width: 25%; height: 51px;" id="syncBtn">
+                Sincronizar
+            </button>
+        </div>
+        <div class="container" style="text-align:center;">
+            <p style="margin-top:10px">Sincroniza la base de datos de TicketPeru, luego de actualizar el panel de BTicket</p>
+        </div>
+    </section>
+}
+
+@section Scripts{
+    <script>
+        $("#Filtro").on("change", function () {
+            $(this).closest("form").submit();
+        });
+
+        $("#TipoEvento").on("change", function () {
+            $(this).closest("form").submit();
+        });
+
+        $("#Meses").on("change", function () {
+            $(this).closest("form").submit();
+        });
+
+    </script>
+    
+    }

@@ -1,0 +1,497 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="" />
+
+    <meta name="robots" content="" />
+
+    <meta name="googlebot" content="" />
+
+    <title>TicketPerú</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/Content/Estilos/img/favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link href="@Url.Content("~/Content/Estilos/css/slick.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/Estilos/css/slick-theme.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/Estilos/css/jquery.fancybox.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/Estilos/css/main.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/Estilos/css/responsive.css")" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="@Url.Content("~/Content/img/FAVICON.png")" />
+
+    @*@RenderSection("Styles", false)*@
+
+</head>
+<!-- End Head -->
+<body class="bg-silver">
+    <!-- Start TOP -->
+    <header class="header">
+ 
+        @{Html.RenderPartial("_LoginPrincipalPartial");}
+       
+
+        @*<div class="menu-collapse">
+            <div class="bg-blue">
+                <div class="container">
+                    <nav class="navbar">
+                        <a href="eventos.html" class="navbar-link btn-yellow white br">Conciertos</a>
+                        <a href="eventos.html" class="navbar-link btn-yellow white br">Entretenimiento</a>
+                        <a href="eventos.html" class="navbar-link btn-yellow white br">Fiestas</a>
+                        <a href="eventos.html" class="navbar-link btn-yellow white br">Seminarios y Conferencias</a>
+                        <a href="eventos.html" class="navbar-link btn-yellow white br">Teatro</a>
+                        <a href="eventos.html" class="navbar-link btn-yellow white br">Viaje y Aventura</a>
+                        <a href="eventos.html" class="navbar-link btn-yellow white br">Cursos y Talleres</a>
+                        
+                        <div class="dropdown-link">
+                            <a href="javascript:;" class="navbar-link navbar-link_toggle btn-yellow white br">Otros&nbsp;<span class="icon-down-arrow"></span></a>
+
+                            <div class="collapse-link">
+                                <div class="dropdown-others bg-yellow">
+                                    <a href="eventos.html" class="navbar-link white">Otros 1</a>
+                                    <a href="eventos.html" class="navbar-link white">Otros 2</a>
+                                    <a href="eventos.html" class="navbar-link white">Otros 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>*@
+        
+
+        <div class="menu-collapse">
+            <div class="bg-blue">
+                <div class="container">
+                    <nav class="navbar">
+                        
+                        @{
+                            List<TicketPeru.Models.TipoEvento> tipoEventos = (List<TicketPeru.Models.TipoEvento>
+                            )ViewBag.Menus;
+                            int cantidadPrint = 0;
+                            foreach (var categoria in tipoEventos)
+                            {
+                                if (cantidadPrint < 7)
+                                {
+                                <a href="@Url.Action("Index","Home", new { TipoEvento = categoria.BTTipoEventoID })" class="navbar-link btn-basic white br">@categoria.Descripcion</a>
+                                    cantidadPrint++;
+                                }
+                            }
+                            if (cantidadPrint >= 7)
+                            {
+                                cantidadPrint = 0;
+                            <div class="dropdown-link">
+                                <a href="javascript:;" class="navbar-link navbar-link_toggle btn-basic white br">Otros&nbsp;<span class="icon-down-arrow"></span></a>
+
+                                <div class="collapse-link">
+                                    <div class="dropdown-others bg-yellow">
+                                        @foreach (var categoria in tipoEventos)
+                                        {
+                                            if (cantidadPrint >= 7)
+                                            {
+                                                <a href="@Url.Action("Index","Home", new {TipoEvento=categoria.BTTipoEventoID })" class="navbar-link white">@categoria.Descripcion</a>
+                                            }
+                                            cantidadPrint++;
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            }
+                            }
+
+</nav>
+                </div>
+            </div>
+        </div>
+        
+
+    </header>
+ 
+    <!-- End TOP -->
+
+@RenderBody()
+
+
+    @{Html.RenderPartial("Footer");}
+    <!-- Start Modals -->
+    <!-- Start Modal - Login -->
+    <div id="modal-login" class="modal bg-white br">
+        <img src="~/Content/Estilos/img/logo.png" class="img-responsive" alt="logo">
+
+        @*<form class="form-modal" action="mensaje-enviado.html" method="post">*@
+        <div class="form-modal">
+            <div id="Resultado_login"></div>
+            <legend class="text-center">
+                <span class="icon-user yellow"></span>
+                <h2 class="h2 blue">Ingresar</h2>
+                <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+            </legend>
+
+            <input class="br" type="text" id="logusuario" placeholder="Usuario">
+            <input class="br" type="password" id="logcontraseña" placeholder="Contraseña">
+            <a class="text text-right red" href="@Url.Action("ForgotPassword", "Account")">
+                ¿Olvidaste tu contraseña?
+            </a>
+            <button class="btn btn-blue br" type="submit" name="button" onclick="return Login();">Ingresar</button>
+        </div>
+    </div>
+    <!-- End Modal - Login -->
+    <!-- Start Modal - Register -->
+<div id="modal-register" class="modal bg-white br">
+    <img src="~/Content/Estilos/img/logo.png" class="img-responsive" alt="logo">
+    <div class="form-modal">
+    
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })<br />
+        <div id="Resultado"></div>
+            <legend class="text-center">
+                <span class="icon-user yellow"></span>
+                <h2 class="h2 blue">Regístrese</h2>
+                <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+            </legend>
+            <input class="br" type="text" id="Nombres" placeholder="Nombre">
+            <input class="br" type="text" id="Apellidos" placeholder="Apellidos">
+            <input class="br" type="text" id="Documento" placeholder="DNI">
+            <input class="br" type="email"id="Email" placeholder="E-mail">
+            <input class="br" type="password" id="Password" placeholder="Clave">
+            <input class="br" type="password" id="ConfirmPassword" placeholder="Clave Confirma">
+
+            <span class="text text-right gray">* Se utilizará el DNI como contraseña</span>
+
+            <button class="btn btn-blue br" type="submit" onclick="return CrearUsuario();" name="button">Registrarse</button>
+      
+    </div>
+        @*<button class="btn btn-blue br" type="submit" onclick="return CrearUsuario();" name="button">Registrarseclick</button>*@
+</div>
+  
+    <!-- End Modal - Register -->
+    <!-- Start Modal - About-Us -->
+    <div id="modal-au" class="modal bg-white br">
+        <h2 class="h2 red">Acerca de Nosotros</h2>
+
+        <p class="text gray">TICKETPERU es una empresa 100% peruana dedicada a la distribución y venta de entradas para eventos de diferentes actividades sean deportivas, culturales, teatrales, musicales, etc. utilizando lo mas avanzado de la tecnología y para lograr nuestros objetivos hemos celebrado alianza estratégica con una empresa de reconocido éxito en Europa.</p>
+        <p class="text gray">Nuestra empresa está integrado por colaboradores profesionales conscientes del reto que significa la innovación para un mercado competitivo, somos una gran familia con fe de logar nuestros objetivos y la realización personal de cada uno que integramos TICKETPERU. Con un servicio de calidad.</p>
+
+        <h3 class="h3 blue">Nuestra Misión</h3>
+        <p class="text gray">En TICKETPERU nos proponemos ser un aliado de nuestros clientes optimizando sus operaciones de forma rápida y efectiva con una herramienta competitiva y de avanzada en constante evolución con la utilización de nuevas tecnologías de servicio de identificación, integración y seguridad con personal calificado.</p>
+
+        <h3 class="h3 blue">Nuestra Misión</h3>
+        <p class="text gray">Ser la empresa que innove el mercado, satisfacer las necesidades de nuestros clientes optimizando el servicio al consumidor en base a nuestra tecnología liderar el mercado nacional e internacional y que nuestros colaboradores se sientan realizados.</p>
+    </div>
+    <!-- End Modal - About-Us -->
+    <!-- Start Modal - Terms-Conditions -->
+    <div id="modal-tc" class="modal terms-conditions bg-white br">
+        <h2 class="h2 red">Términos y Condiciones</h2>
+        <h3 class="h3 blue">Normas contractuales que regulan los servicios que presta TICKETPERÚ</h3>
+        <ol class="p-ol1">
+            <li class="yellow">
+                <p>Sometimiento y aceptación a las normas contractuales por parte de las personas naturales y jurídicas que utilizan nuestros servicios.</p>
+                <p class="text gray">Bienvenidos a TICKETPERÚ somos una empresa peruana cuyo objeto social es la comercialización de eventos de terceros a través de nuestra página WEB.</p>
+                <p class="text gray">Si desea participar de algún evento que estamos comercializando, usted estará sujeto al Sometimiento Y Aceptación DE Las Normas Contractuales para las Personas Naturales Y Jurídicas Que Utilizan Nuestros Servicios.</p>
+                <p class="text gray">TICKETPERÚ brindara a usted de acuerdo a los Normas Contractuales que Regulan Nuestros Servicios, el uso de nuestra plataforma para que pueda adquirir sus entradas al evento de su elección. Los cuales pueden ser actualizadas periódicamente porTICKETPERÚ sin notificación previa.</p>
+                <p class="text gray">Usted siempre podrá acceder a la versión más reciente de los Normas Contractuales que Regulan Nuestros Servicios, en la siguiente ubicación “Normas Contractuales que Regulan Nuestros Servicios, de uso".</p>
+            </li>
+
+            <li class="yellow">
+                <p>Detalle de nuestro servicio aplicable a los organizadores y a los asistentes de un evento.</p>
+                <p class="text gray">Con relación a los asistentes a un evento, el Servicio de TICKETPERÚ se limita a aceptar la inscripción a eventos creados y publicados por los Organizadores (Persona natural o jurídica que realiza el evento y que contrata a TICKETPERÚ para la venta de sus entradas).</p>
+                <p class="text gray">El servicio de TICKETPERÚ no garantiza bajo ningún motivo que el evento al que desea inscribirse y asistir vaya a realizarse, solo se limita a informar a los organizadores su interés de asistir con las selecciones que usted haya realizado, y eventualmente transferirle al organizador de los pagos que usted realice en algunas de las pasarelas de pago habilitadas o el pago en la cuenta asignada.</p>
+                <p class="text gray">El responsable de extenderle y entregarle su comprobante fiscal por los servicios que usted vaya a pagar es el organizador.</p>
+                <p class="text gray">El asistente al evento, comprende y acepta que el servicio se brinda tal cual es y que TICKETPERÚ no asume responsabilidades por retraso, borrado, entrega equivocada o falla al guardar cualquier comunicación del usuario, o sus criterios de personalización.</p>
+                <p class="text gray">El asistente al evento, es responsable de obtener el acceso al servicio, el cual podrá incluir cargos de terceros (tales como cargos del proveedor de acceso a Internet o de comunicaciones). También será responsable de tales cargos, incluyendo aquellos asociados con la exhibición o envío de publicidad. Asimismo, deberá contar con todo el equipo necesario para acceder al Servicio y será responsable del mismo.</p>
+                <p class="text gray">Su participación no es considerada válida hasta que su pago quede registrado.</p>
+                <p class="text gray">Es obligatorio que el asistente a un evento, al momento de la compra se identifique con su DNI o con su Pasaporte conforme corresponda.</p>
+                <p class="text gray">Si realizara más de una compra con el mismo comprobante de pago, quedara a criterio del Organizador determinar si considera válido o no dicha transacción.</p>
+                <p class="text gray">Ningún cambio, reintegro o devolución se encuentran permitidos excepto en las condiciones que establezca el Organizador.</p>
+                <p class="text gray">Si la fecha de un evento fuera modificada por alguna circunstancia las inscripciones serán validas para la fecha definitiva que fije el Organizador.</p>
+                <p class="text gray">Si un evento es cancelado debido a cualquier motivo, incluso las que respondan a caso fortuito o de fuerza mayor, no existirá derecho alguno a efectuar contra TICKETPERÚ reclamos por devoluciones o reintegros. En este caso el Organizador tendrá un plazo de 90 días desde la fecha estipulada del evento para la devolución de dicho importe.</p>
+                <p class="text gray">El Organizador se reserva el derecho de agregar, modificar o sustituir contenido, expositores, artistas, variación de los programas, precios y ubicaciones difundidas, así como la capacidad del evento.</p>
+                <p class="text gray">El Organizador dentro de sus políticas y en el marco de las Normas Legales se reserva el derecho de admisión.</p>
+                <p class="text gray">De acuerdo a la naturaleza del evento y según las políticas del organizador, la llegada tarde del público podrá implicar que el ingreso del mismo se efectúe en el intervalo.</p>
+                <p class="text gray">Al ingreso, el público deberá identificarse con el documento con el que adquirió la entrada y estará sujeto a un control de asistencia según la Ley, cualquier persona que se negase a esta condición se le prohibirá la entrada al recinto. El Organizador podrá negar el ingreso de cámaras fotográficas, grabadores, filmadoras, pudiendo las mismas ser retiradas del lugar y eliminado su contenido.</p>
+                <p class="text gray">Antes de completar su registro, por favor revise cuidadosamente el evento y condiciones deseadas, ya que una vez realizado no se permiten cambios, reintegros y/o devoluciones salvo las admitidas por el Organizador. Las entradas solo serán consideradas válidas para ingresar el evento siempre que sean pagadas ante una agencia habilitada por TICKETPERÚ. Adopte los recaudos necesarios a fin de evitar poseer una entrada falsa ya que de lo contrario podrá ser objeto de una acción judicial.</p>
+                <p class="text gray">Las inscripciones no podrán ser utilizadas en ningún caso para su reventa y/o aplicación comercial o de promoción alguna sin previa autorización por escrito del Organizador.</p>
+                <p class="text gray">Ante cualquier duda particular respecto al evento que desea participar consulte al Organizador.</p>
+                <p class="text gray">Usted deberá exigir el comprobante de pago por el ticket adquirido directa y exclusivamente al organizador del evento. TICKETPERÚ funciona como agente recaudador del dinero por las entradas para los eventos, pero no se responsabiliza por entregar comprobantes de pago por los mismos ya que no está realizando una venta directa al usuario. La obligación de TICKETPERÚ solo se limita a la entrega de la entrada al recinto.</p>
+                <p class="text gray">El plazo para adquirir tickets para una actividad, puede ser variable dependiendo de lo acordado directamente con el organizador de dicho evento.</p>
+                <p class="text gray">Usted debe ser mayor de 18 años para acceder al servicio de TICKETPERÚ, revisar esos contenidos y solicitar la cobranza de inscripciones. TICKETPERÚ no recogerá información personal de personas menores de 18 años de manera intencional. Si usted es menor de 18 años, le pedimos que no ingrese información personal a través de nuestros servicios.</p>
+                <p class="text gray">TICKETPERÚ sugiere a todos los padres de familia y tutores legales monitorear el uso de internet de sus hijos buscando evitar que realicen transacciones monetarias sin su autorización.</p>
+                <p class="text gray">Si usted tiene algún motivo para sospechar que un menor de 18 años este realizando operaciones o el uso mismo de nuestros servicios, por favor contáctenos para proceder con la eliminación permanente de los datos ingresados por ellos de nuestros registros.</p>
+                <p class="text gray">Todas las cuentas de TICKETPERÚ están denominadas en Soles Peruanos o Dólares Americanos y todas las referencias a dinero en el Sistema se indican a hacerse en una de estas dos monedas de curso legal en el Perú, a excepción de aquellas en las que expresamente se indique lo contrario.</p>
+                <p class="text gray">Los registros de datos e información tanto de los organizadores como a los asistentes de un evento, se encuentra sujeto a lo regulado en la ley general de protección de datos personales.</p>
+            </li>
+
+            <li class="yellow">
+                <p>Aceptación de normas contractuales que regulan nuestros servicios, para el organizador de evento</p>
+                <p class="text gray">TICKETPERÚ les da la bienvenida.</p>
+                <p class="text gray">TICKETPERÚ proveerá a Usted sus servicios de acuerdo a las siguientes Normas Contractuales que Regulan Nuestros Servicios, las cuales podrán ser periódicamente actualizadas por TICKETPERÚ sin notificación previa. Usted podrá revisar la versión más reciente de los Normas Contractuales que Regulan Nuestros Servicios, en todo momento en esta misma ubicación: “Normas Contractuales que Regulan Nuestros Servicios, de uso”. Además, cuando se encuentre utilizando servicios particulares de TICKETPERÚ u operados por TICKETPERÚ, usted y TICKETPERÚ estarán sujetos a cualesquiera guías de uso o reglas correspondientes a dichos servicios, que puedan ser publicadas periódicamente. Todas estas guías de uso o reglas (incluyendo, pero sin limitarse a nuestra política de Spam) se encuentran incorporadas a estas Normas Contractuales que Regulan Nuestros Servicio.</p>
+                <ol class="p-ol2">
+                    <li class="dark-purple">
+                        <p>Detalle del Servicio Para el Organizador del Evento</p>
+                        <p class="text gray">TICKETPERÚ provee una amplia colección de recursos destinados a facilitar la organización de eventos culturales, deportivos, académicos, artísticos y otros, incluyendo herramientas de comunicación, foros, servicios de pago, y contenido personalizado, al que se puede acceder a través de diversos medios o dispositivos conocidos o a ser desarrollados en el futuro (el Servicio).</p>
+                        <p class="text gray">El servicio de TICKETPERÚ no garantiza de ninguna manera que usted recibirá participantes en su evento si no que se limita a proporcionar herramientas para que organizadores y participantes puedan acordar su participación. Usted comprende y acepta que el Servicio puede incluir la cobranza a su nombre y la publicidad y que los mismos son necesarios para que TICKETPERÚ pueda prestar el Servicio.</p>
+                        <p class="text gray">Al registrarse, TICKETPERÚ actuará como agente para procesar por su cuenta y orden estas cobranzas. Usted se obliga a emitir todos los comprobantes fiscales a los usuarios o participantes que recibieran o realizaran una inscripción o compra a través del Servicio. TICKETPERÚ sólo facilita el pago de estos servicios a través de medios de pago contratados, mantendrá esos fondos separados y transferirá a su cuenta todos los pagos que se realizaran menos las comisiones correspondientes por el uso del servicio de acuerdo a sus instrucciones, emitiéndole al organizador el comprobante fiscal correspondiente por las comisiones cobradas. TICKETPERÚ no es una entidad financiera ni presta servicios bancarios o cambiarios. Los fondos acreditados en la cuenta TICKETPERÚ no genera intereses y el usuario podrá disponer libremente de ellos. Asimismo, usted se compromete a respetar los siguientes procedimientos como organizador:</p>
+                        <ol class="p-ol3 gray">
+                            <li><p>Pagar los impuestos correspondientes por los tickets emitidos.</p></li>
+                            <li><p>La entrega del dinero correspondiente a los tickets vendidos según la naturaleza del evento se hará como máximo 10 días después de realizada la actividad. Durante este periodo, usted tiene la opción de modificar o cancelar las transacciones de acuerdo con los resultados finales del evento.</p></li>
+                            <li><p>La entrega del dinero se efectuará luego de que la actividad se haya realizado satisfactoriamente.</p></li>
+                            <li><p>Asumir la responsabilidad total por el control de asistencia de su evento. TICKETPERÚ provee de las herramientas necesarias para ejecutarlo. De ser el caso que el control de asistencia y acceso se le contrate a TICKETPERÚ, asumiremos la labor de llevar el control conforme corresponda.</p></li>
+                            <li><p>Pagar la comisión o contraprestación que corresponde a TICKETPERÚ del monto total facturado al margen de haber elegido y aprobado el modelo de facturación donde el usuario asume parte de la comisión y contraprestación.</p></li>
+                            <li><p>Usted también comprende y acepta que el Servicio puede incluir ciertas comunicaciones de TICKETPERÚ, como anuncios de servicios, mensajes administrativos y el Boletín TICKETPERÚ, y que estas comunicaciones se consideran parte de la membresía de TICKETPERÚ y que Usted podrá optar por no recibirlas. A menos que se indique expresamente lo contrario, cualquier nueva funcionalidad que aumente o mejore el Servicio actual, incluyendo el lanzamiento de nuevas propiedades de TICKETPERÚ, estará sujeta a estas Normas Contractuales que Regulan Nuestros Servicios. Usted comprende y acepta que el Servicio se provee TAL CUAL ES y que TICKETPERÚ no asume responsabilidades por el retraso, borrado, entrega equivocada o falla al guardar cualquier comunicación, o sus criterios de personalización. Usted es responsable de obtener el acceso al Servicio, el cual podrá incluir cargos de terceros (tales como cargos del proveedor de acceso a Internet o de comunicaciones). Usted será responsable de tales cargos, incluyendo aquellos cargos asociados con la exhibición o envío de publicidad. Además, deberá contar con todo el equipo necesario para acceder al Servicio y será responsable del mismo.</p></li>
+                        </ol>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Obligaciones del Organizador</p>
+                        <p class="gray">Como una condición esencial para usar el Servicio, Usted declara que posee capacidad legal para contratar y que no posee ningún impedimento para recibir servicios bajo las leyes del Perú y otras jurisdicciones aplicables. Asimismo, Usted se obliga a:</p>
+                        <ol class="p-ol3 gray">
+                            <li><p>Proveer información verdadera, correcta, actual y completa acerca de su persona conforme al Formulario de registro del Cliente.</p></li>
+                            <li><p>Mantener y actualizar en todo momento el Formulario de Registro del Cliente. A fin de conservarlos veraces, correctos, actuales y completos. Si suministra información que es falsa, inexacta, desactualizada o incompleta, o si TICKETPERÚ tiene bases razonables para sospechar que dicha información es falsa, inexacta, desactualizada o incompleta, TICKETPERÚ tendrá el derecho de suspender o cerrar su cuenta y negarle el uso presente o futuro del Servicio (o cualquier parte del mismo). TICKETPERÚ se preocupa por la seguridad y privacidad de sus usuarios.</p></li>
+                        </ol>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Cuenta de Usuario, Contraseña y Seguridad</p>
+                        <p class="gray">Después de haberse firmado el contrato para la prestación de nuestro servicio, se le otorgara una cuenta y contraseña de usuario, siendo de su responsabilidad el mantener la confidencialidad de la cuenta y contraseña. Usted(es) debe(n) comprometerse a informar a TICKETPERU de modo inmediato por cualquier uso no autorizado de su cuenta y contraseña o cualquier violación a la seguridad. Igualmente deberá asegurarse de cerrar su cuenta al final de cada sesión.</p>
+                        <p class="gray">TICKETPERÚ no se hará responsable por ningún daño o pérdida que resulte como consecuencia de su incumplimiento a las disposiciones de esta clausula.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Conducta del Usuario</p>
+                        <p class="gray">Usted comprende y acepta que toda la información, datos, textos, software, música, sonido, fotografías, gráficos, videos, mensajes u otros materiales (Contenido), sea que se fijen públicamente o se transmitan privadamente, son únicamente responsabilidad de la persona que originó dicho Contenido. Esto significa que usted y no TICKETPERÚ, es enteramente responsable por todo el Contenido que usted cargue, publique, envíe por correo electrónico, transmita o de cualquier forma ponga a disposición a través del Servicio.</p>
+                        <p class="gray">Será de su responsabilidad la información que se otorgue a TICKETPERÚ para que se publique a través del Servicio y por tal motivo TICKETPERÚ no garantiza la exactitud, integridad o calidad de tal contenido. Bajo ninguna circunstancia TICKETPERÚ será responsable en cualquier forma por cualquier contenido, incluyendo, pero sin limitarse a cualquier error u omisión en cualquier contenido, o por cualquier pérdida o daño de cualquier tipo ocasionado como resultado del uso de cualquier contenido publicado.</p>
+                        <p class="gray">Usted reconoce que TICKETPERÚ puede o no preseleccionar el Contenido, pero TICKETPERÚ y aquéllos por él designados tienen el derecho, pero no la obligación, a su plena discreción de preseleccionar, rechazar o remover cualquier Contenido que se pretenda publicar a través del servicio. Sin limitación de lo anterior, TICKETPERÚ y sus designados tendrán el derecho de remover cualquier Contenido que viole las Normas Contractuales de nuestros Servicios y las legales.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Responsabilidad del Organizador</p>
+                        <p class="gray">Usted se compromete a indemnizar y mantener indemne y libre de daños a TICKETPERÚ, sus controlantes, subsidiarias, sociedades bajo el control común, afiliadas, autoridades, agentes, asociados u otros socios y empleados, de cualquier reclamo o demanda, incluyendo honorarios de los abogados, iniciados por terceros debido a o con origen en el Contenido que por encargo de usted se publique, transmita o ponga a disposición por medio del Servicio.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Prohibición de Revender el Servicio</p>
+                        <p class="gray">Usted es consiente que no debe copiar, comercializar, revender o explotar con propósitos comerciales ningún servicio (incluyendo su nombre de usuario otorgado por TICKETPERÚ), uso del servicio o acceso al mismo.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Modificaciones al Servicio</p>
+                        <p class="gray">TICKETPERÚ, se reserva el derecho de modificar o discontinuar el servicio o cualquier parte de este, temporal o permanentemente, en cualquier momento y periódicamente, por lo que TICKETPERÚ no será responsable hacia ustedes o terceras partes por ninguna modificación, suspensión o interrupción del Servicio.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Resolución del Servicio</p>
+                        <p class="gray">Usted acepta que TICKETPERÚ puede, bajo ciertas circunstancias y sin necesidad de notificación previa, resolver de pleno derecho el contrato de Servicios y cancelar inmediatamente la cuenta otorgada por TICKETPERÚ, así como cualquier dirección de correo electrónico asociada y su acceso al Servicio.</p>
+                        <p class="gray">Entre las causales de resolución se incluyen, sin limitarse: (a) incumplimientos o violaciones a las Normas Contractuales que Regulan Nuestros Servicios; (b) requerimientos de autoridades legales o gubernamentales; (c) su solicitud (cancelación de cuenta por requerimiento del usuario); (d) problemas técnicos o de seguridad inesperados; (e) períodos de inactividad prolongados.</p>
+                        <p class="gray">La cancelación de su cuenta en TICKETPERÚ incluye: (a) la cancelación del acceso a todas las ofertas dentro del Servicio; (b) el borrado de su clave y de toda la información relacionada, archivos y de todo el contenido asociado con o dentro de su cuenta (o de cualquier parte de la misma). Asimismo, Usted acepta que todas las causales de resolución podrán ser invocadas por TICKETPERÚ a su única discreción y que TICKETPERÚ no será responsable frente a Usted ni frente a ningún tercero por cualquier cancelación de su cuenta, y las direcciones de correo electrónico asociada o acceso al Servicio.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Derechos de Propiedad de Ticketperú</p>
+                        <p class="gray">Usted reconoce, acepta y acuerda que el Servicio y cualquier software necesario usado en conexión con el Servicio. Contienen propiedad e información confidencial que se encuentra protegida bajo las leyes aplicables de propiedad intelectual y de otra naturaleza.</p>
+                        <p class="gray">El logo, La marca comercial y de servicio, así como nombres de servicios y productos de TICKETPERÚ, son propiedad exclusiva de TICKETPERÚ. Nadie tiene autorización a mostrar o usar las marcas TICKETPERÚ sin autorización previa y por escrito de TICKETPERÚ.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Límite de Responsabilidad</p>
+                        <p class="gray">Usted comprende y acuerda expresamente que TICKETPERÚ no será responsable por ningún daño, interés o perjuicio directo o indirecto, previsto o imprevisto, intrínseco o extrínseco, incluyendo (pero sin limitarse a ello) lucro cesante, o perdida de prestigio, uso, datos u otras pérdidas intangibles (aun en el caso que TICKETPERÚ hubiera sido advertida de la posibilidad de tales daños), resultante de: (a) el uso o imposibilidad de usar el servicio; (b) el costo de obtención de bienes o servicios sustitutos resultante de la falla de cualquier bien, dato, información o servicio adquirido u obtenido por medio del servicio, o mensaje recibido, o transacciones realizadas, por medio o desde el servicio; (c) el acceso no autorizado a sus transmisiones, o alteración de las mismas, o de sus datos; (d) las declaraciones o conductas de cualquier tercero en el servicio; o (e) cualquier otro asunto relacionado al servicio. Todas las condiciones estipuladas respecto de TICKETPERÚ en este artículo y el anterior se aplican a TICKETPERÚ, sus sociedades contratantes, controladas o bajo el control común.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Comunicaciones Entre las Partes</p>
+                        <p class="gray">Toda comunicación, incluidas aquellas relativas a modificaciones a los Normas Contractuales que Regulan Nuestros Servicios serán dirigidas a las autorizadas contractualmente por las partes.</p>
+                    </li>
+                    <li class="dark-purple">
+                        <p>Obligación de Cumplir las Normas Contractuales que Regulan Nuestros Servicios</p>
+                        <p class="gray">Estas Normas Contractuales que Regulan Nuestros Servicios, son de obligatorio cumplimiento, sin perjuicio de que se suscriba con cada organizador de eventos un contrato para la prestación de nuestros servicios.</p>
+                        <p class="gray">Estas normas contractuales se rigen por las leyes de la República del Perú, sometiéndose las partes en caso de controversia a la competencia de los Tribunales de justicia de Lima-Cercado.</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    <!-- End Modal - Terms-Conditions -->
+    <!-- Start Modal - FAQ -->
+    <div id="modal-faq" class="modal bg-white br">
+        <h2 class="h2 red">Preguntas Frecuentes</h2>
+
+        <h3 class="h3 blue">¿Dónde compro mis entradas?</h3>
+        <p class="text gray">Las puedes comprar a través de nuestra página web http://www.ticketperu.pe/ o si deseas directamente en el recinto del evento donde se habilitarán puntos de venta 4h antes del inicio del evento.</p>
+
+        <h3 class="h3 blue">¿Necesito recoger mis entradas?</h3>
+        <p class="text gray">Las entradas no tienes que recogerlas en ningún punto de venta, nosotros te las enviaremos a tu correo electrónico.</p>
+
+        <h3 class="h3 blue">¿El documento de pago que recibo en mi correo es válido para acceder al evento y la puedo llevar impresa?</h3>
+        <p class="text gray">Es recomendable que la lleves impresa o en tu móvil porque con ello demostrarás que tribuna y asiento es la que te corresponde, pero para acceder al evento solo será válido tu documento de identidad el cual te sugerimos portarlo siempre, el que debe coincidir con el asignado en tu documento de compra caso contrario no podrás acceder al evento.</p>
+
+        <h3 class="h3 blue">¿Cuándo un evento es cancelado que ocurre?</h3>
+        <p class="text gray">Si un evento es cancelado debido a cualquier motivo, incluso las que respondan a casos fortuitos o de fuerza mayor, según nuestras normas contractuales, el organizador tendrá un plazo de 90 días desde la fecha estipulada del evento para la devolución de dicho importe.</p>
+
+        <h3 class="h3 blue">¿En qué ocasiones se puede devolver la compra?</h3>
+        <p class="text gray">Cuando un evento es cancelado o suspendido.</p>
+
+        <h3 class="h3 blue">¿Hay reservaciones para la compra de entradas?</h3>
+        <p class="text gray">No, el tiempo que demore en cancelar mediante las opciones que se le brinda puede estar reservada que no es más de 10 minutos, si en ese tiempo no se ha determinado el pago, la reserva será anulada automáticamente.</p>
+
+        <h3 class="h3 blue">¿Qué modalidades de pago utilizan?</h3>
+        <p class="text gray">TICKETPERÚ contempla las siguientes modalidades de pago:</p>
+        <ul class="text gray p-ol1">
+            <li><p><b>Efectivo:</b> Sólo se puede utilizar en los puntos de venta. El cheque no es un medio de pago en efectivo y no está autorizado.</p></li>
+            <li><p><b>Tarjeta Bancaria:</b> (Visa, MasterCard, Diners, AmericanExpress). Esta modalidad la puede utilizar en cualquiera de nuestros modos de venta. En el proceso de adquisición usted elige las cuotas de la transacción, al firmar el voucher de compra usted acepta las condiciones de la compra, nosotros no podemos ayudarlo en cualquier otra solicitud al respecto. (TICKETPERÚ no posee cuotas precio contado).</p></li>
+            <li><p><b>Para ventas internacionales:</b> Visa, MasterCard, Diners, AmericanExpress.</p></li>
+            <li><p><b>Finalmente, PagoEfectivo:</b> (Tarjeta PagoEfectivo Visa prepago con la cual podrás recargar un monto en soles y realizar compras por Internet en moneda nacional y extranjera en las tiendas online y establecimientos que acepten Visa).</p></li>
+        </ul>
+
+        <h3 class="h3 blue">¿Máximo número de entradas que pueden ser comprados por una persona?</h3>
+        <p class="text gray">En general son 10 (diez) entradas, aunque siempre dependerá del evento.</p>
+
+        <h3 class="h3 blue">¿Cómo puedo saber cuáles son los puntos de venta?</h3>
+        <p class="text gray">Para saber cuáles son nuestros puntos de venta si así lo requiere la naturaleza del evento puedes visitar el siguiente Link http://www.ticketperu.pe/</p>
+
+        <h3 class="h3 blue">¿Puedo devolver o cambiar entradas ya compradas?</h3>
+        <p class="text gray">Las entradas (tickets) pueden ser transferidas a un tercero con solo hacer la transferencia de titularidad que la web te facilitará, cabe indicar que se puede cambiará la titularidad de la entrada mas no la ubicación, sector o tribuna.</p>
+
+        <h3 class="h3 blue">¿Cómo recojo mis entradas?</h3>
+        <p class="text gray">No hay necesidad recoger entrada alguna, la entrada a un evento es el número de tu documento de identidad, al realizar tu compra e indicar el número de documento del asistente nos estas indicando el número de tu entrada.</p>
+
+        <h3 class="h3 blue">¿Cómo compro a través de la página web?</h3>
+        <p class="text gray">Sigue detenidamente las indicaciones:</p>
+        <ul class="text gray p-ol1">
+            <li>
+                <p><b>Primero:</b> Debes registrarte en nuestra web, opción “REGÍSTRARSE”, la clave o PASSWORD debe contemplar lo siguiente: tener 8 caracteres como mínimo y al menos 1 letra mayúscula, 1 letra minúscula, 1 número y 1 carácter especial (por ejemplo $).</p>
+                <p>La cuenta creada en TICKETPERÚ es personal e intransferible, y es válido sólo para la compra de entradas como asistente a cualesquiera de nuestros eventos.</p>
+            </li>
+
+            <li><p><b>Segundo:</b> Una vez realizado el registro de usuario debes ingresar con tus datos (Correo y Password) en la opción “Iniciar sesión”.</p></li>
+
+            <li>
+                <p><b>Tercero:</b> Elige el evento al que deseas asistir, si el evento tiene más de una fecha de presentación, aparecerán las fechas que se darán dicho evento. Si el evento es de una sola fecha, aparecerá la opción “comprar”. A su vez encontrarás un plano referencial de las ubicaciones con sus precios. Selecciona sobre el plano la ubicación que deseas e inmediatamente se agregará una entrada a tu compra. Si quieres más de una entrada debes repetir la misma acción (se irán sumando, fíjate bien en la especificación que te aparecerá). En caso de que la ubicación que elegiste sea numerada, deberás elegir el asiento.</p>
+                <p>Debes indicar el número de Documento de Identidad de la persona que asistirá en cada una de las entradas que este comprando, ese número será validado a la hora del control de acceso, el documento de compra no es válido para el acceso al evento.</p>
+            </li>
+
+            <li><p><b>Cuarto:</b> Una vez elegida las entradas con asientos numerados o no, se te mostrara el monto a pagar.</p></li>
+
+            <li><p><b>Quinto:</b> Selecciona el medio de pago que prefieres y presiona “continuar”.</p></li>
+
+            <li><p><b>Sexto:</b> Finalizada la compra, recibirás un email de confirmación indicando el número de la orden de compra, cantidad de entradas compradas. Este mail es la confirmación de tu compra, este documento es para validar el asiento reservado ya que para el acceso solo es necesario tu documento de identidad (DNI).</p></li>
+        </ul>
+    </div>
+    <!-- End Modal - FAQ -->
+    <!-- End Modals -->
+    <!-- Start Scripts -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId            : '1843758539033933',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v3.1'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script>
+    @*function gettoken() {
+        var token = '@Html.AntiForgeryToken()';
+        token = $(token).val();
+        console.log(token);
+        return token;
+    }*@
+    //var addAntiForgeryToken = function (data) {
+    //    data.__RequestVerificationToken = $("[name='__RequestVerificationToken']").val();
+    //    return data;
+    //};
+    function CrearUsuario() {
+       var PostModel = {
+           Email: $('#Email').val(),
+           Password: $('#Password').val(),
+           ConfirmPassword: $('#ConfirmPassword').val(),
+            Nombres: $('#Nombres').val(),
+            Apellidos: $('#Apellidos').val(),
+            Documento: $('#Documento').val()
+        }
+
+            console.log('Ingreso');
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("Registro", "Account")',
+                data: 
+                    JSON.stringify(PostModel)
+                ,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(response) {
+                    if (response != null) {
+                        if (response.cod_Resp == 0) {
+                            $("#Resultado").empty();
+                            for (var i = 0, l = response.ListaError.length; i < l; i++) {
+                                $("#Resultado").append("<li style='color: red;'>" + response.ListaError[i] + "</li>");
+                            }
+                        }
+
+                    } else {
+                        alert("No retorno valor");
+                    }
+                },
+                failure: function(response) {
+                    alert('fallo');
+                },
+                error: function(response) {
+                    alert('error');
+                }
+            });
+     
+    }
+
+    function Login() {
+        var PostModel = {
+            Email: $('#logusuario').val(),
+            Password: $('#logcontraseña').val()
+        }
+
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("Logins", "Account")',
+            data:
+                JSON.stringify(PostModel)
+            ,
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                if (response != null) {
+                    if (response.cod_Resp == 0) {
+                        $("#Resultado_login").empty();
+                        for (var i = 0, l = response.ListaError.length; i < l; i++) {
+                            $("#Resultado_login").append("<li style='color: red;'>" + response.ListaError[i] + "</li>");
+                        }
+                    }
+                } else {
+                    alert("No retorno valor");
+                }
+            },
+            failure: function (response) {
+                alert('fallo');
+            },
+            error: function (response) {
+                alert('error');
+            }
+        });
+
+    }
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="~/Content/Estilos/js/slick.min.js"></script>
+    <script src="~/Content/Estilos/js/jquery.fancybox.min.js"></script>
+    <script src="~/Content/Estilos/js/main.js"></script>
+
+    <!-- End Scripts -->
+
+</body>
+</html>

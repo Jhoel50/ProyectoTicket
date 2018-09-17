@@ -1,0 +1,94 @@
+﻿<div class="menu-responsive bg-black">
+    <h1 class="logo-responsive">
+        <a href="@Url.Action("Index","Home")">
+             
+            <img class="img-responsive" src="~/Content/Estilos/img/logo.png" alt="logo">
+        </a>
+    </h1>
+    
+    <div class="icons-responsive">
+        <a class="btn_make-event btn btn-basic br" href="@Url.Action("Contact","Home")">
+            <span class="icon-calendar yellow">
+            </span>
+            <span class="white">
+                Haz tu evento
+            </span>
+        </a>
+        <a class="login btn btn-basic br" data-fancybox="" data-src="#modal-login" href="javascript:;">
+            <span class="icon-user yellow">
+            </span>
+            <span class="white">
+                Iniciar Sesión
+            </span>
+        </a>
+        <a class="register btn btn-blue br" data-fancybox="" data-src="#modal-register" href="javascript:;">
+            Registrarse
+        </a>
+        <div class="hamburger-responsive">
+            <div class="hamburger-icon">
+                <span>
+                </span>
+                <span>
+                </span>
+                <span>
+                </span>
+                <span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-black">
+    <div class="container">
+        <div class="flex-header">
+            <h1 class="logo">
+                <a href="@Url.Action("Index","Home")">
+                    <img alt="logo" class="img-responsive" src="~/Content/Estilos/img/logo.png">
+                    </img>
+                </a>
+            </h1>
+            <div class="block-header">
+                <div class="social-networks">
+                    <a class="facebook" href="" target="_blank">
+                        <span class="icon-facebook-circle fb">
+                        </span>
+                    </a>
+                    <a class="youtube" href="https://www.youtube.com/channel/UCWqSViYs1L_NPfRlIP68FKA" target="_blank">
+                        <span class="icon-youtube-circle yt">
+                        </span>
+                    </a>
+                </div>
+                @*<form action="index.html" class="search" method="post">*@
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @class = "search", role = "form" }))
+                    {
+                        <input name="buscar" placeholder="Buscar" type="text">
+                        <button class="bg-blue" name="button" type="submit">
+                            <span class="icon-search white" id="spanBuscar">
+                            </span>
+                        </button>
+                        <button type="submit" id="btnBuscar" style="display:none" hidden></button>
+                    @*</input>*@
+                    }
+                @*</form>*@
+                    <a class="btn_make-event btn btn-basic br" href="@Url.Action("Contact","Home")">
+                        <span class="icon-calendar yellow">
+                        </span>
+                        <span class="white">
+                            Haz tu evento
+                        </span>
+                    </a>
+                    <a class="login btn btn-basic br" data-fancybox="" data-src="#modal-login" href="javascript:;">
+                        <span class="icon-user yellow">
+                        </span>
+                        <span class="white">
+                            Iniciar Sesión
+                        </span>
+                    </a>
+                    <a class="register btn btn-blue br" data-fancybox="" data-src="#modal-register" href="javascript:;">
+                        Registrarse
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>

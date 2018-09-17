@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SITE TITTLE -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ticket Perú - Tu mejor opción</title>
+    <!-- PLUGINS CSS STYLE -->
+    <link href="@Url.Content("~/Content/plugins/jquery-ui/jquery-ui.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/plugins/bootstrap/css/bootstrap.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/plugins/font-awesome/css/font-awesome.min.css")" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/plugins/selectbox/select_option1.css")">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/plugins/datepicker/datepicker.css")">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/plugins/isotope/jquery.fancybox.css")">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/plugins/isotope/isotope.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Content/plugins/slick/slick.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Content/plugins/slick/slick-theme.css")">
+    <!-- REVOLUTION SLIDER -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/plugins/revolution/css/settings.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Content/plugins/revolution/css/layers.css")">
+    <link rel="stylesheet" href="@Url.Content("~/Content/plugins/revolution/css/navigation.css")">
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700' rel='stylesheet' type='text/css'>
+    <!-- CUSTOM CSS -->
+    <link href="@Url.Content("~/Content/css/style.css")" rel="stylesheet">
+    <link rel="stylesheet" href="@Url.Content("~/Content/css/colors/default.css")" id="option_color">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="@Url.Content("~/Content/img/FAVICON.png")" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    @RenderSection("Styles", false)
+    <style>
+        .form-control:focus {
+            border-color: #173863 !important;
+        }
+    </style>
+</head>
+<body class="body-wrapper ">
+    <div class="main-wrapper">
+        <!-- HEADER -->
+        <header>
+            <section class="headerTop">
+                <div class="container">
+                    <div class="headerTopNav">
+                        <ul class="headerTopNavbar navbar-left">
+                            <li class="active"><i class="fa fa-calendar" style="color:#fff;" aria-hidden="true"></i>&nbsp;@Html.ActionLink("Haz tu evento con nosotros", "Contact", "Home", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+                        </ul>
+                        <ul class="headerTopNavbar navbar-left">
+                            @*<li><a href="http://ticketperu.pe/content/img/LOGOTIPO-TICKETPERU.png"><i title="Cómo comprar" class="fa fa-info" aria-hidden="true"></i>  Cómo comprar</a></li>*@
+                            <li><a href="@Url.Content("~/Ayuda//Como Comprar.pdf")" target="_blank"><i title="Cómo comprar" class="fa fa-info" aria-hidden="true"></i>Cómo comprar</a></li>
+
+                        </ul>
+                        @{Html.RenderPartial("_LoginPartial");}
+                    </div>
+
+                </div><!-- /.container -->
+            </section>
+
+            @{Html.RenderPartial("_Navigation");}
+        </header>
+
+        @RenderBody()
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="footerContent">
+                                <a href="@Url.Action("Index","Home")" class="footer-logo" ><img src="@Url.Content("~/Content//img/LOGOTIPO-TICKETPERU.png")" style="margin-bottom:35px;"></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="">www.ticketperu.pe</a></li>
+                                    <li><a href="mailto:informes@ticketperu.pe">informes@ticketperu.pe</a></li>
+                                </ul>
+                                <p>Copyright 2018 © Ticket Perú</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="footerContent imgGallery">
+                                <h5>Enlaces</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="@Url.Action("About","Home")">Acerca de Nosotros</a></li>
+                                    <li><a href="@Url.Action("Preguntas","Home")">Preguntas Frecuentes</a></li>
+                                    <li><a href="@Url.Action("Terminos","Home")">Términos y Condiciones</a></li>
+                                    <li><a href="@Url.Action("Claim","Home")">Libro de Reclamaciones</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12">
+                            <div class="footerContent">
+                                <h5>Redes Sociales</h5>
+                                <p>Síguenos en</p>
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/TicketPeru-221743625124232/about/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com/ticketperu"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://plus.google.com/u/0/100826418472086927432"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="@Url.Action("Mensajes","Home")"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                </ul>
+                                <div style="padding-top: 20px">
+                                    <img src="@Url.Content("~/Content/img/visa/visa_pos_fc.png")" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*<div class="copyRight clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 text-center">
+                            <div class="copyRightText">
+                                <p style="text-align: center; font-weight: 400 !important;">Copyright 2018 © Ticket Perú.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+        </footer>
+    </div>
+
+    <!-- JAVASCRIPTS -->
+    <script src="@Url.Content("~/Content/plugins/jquery/jquery-2.2.4.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/jquery/jquery-migrate-1.2.1.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/jquery-ui/jquery-ui.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/bootstrap/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/revolution/js/jquery.themepunch.tools.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/revolution/js/jquery.themepunch.revolution.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/selectbox/jquery.selectbox-0.1.3.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/datepicker/bootstrap-datepicker.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/jquery/waypoints.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/counter-up/jquery.counterup.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/isotope/isotope.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/isotope/jquery.fancybox.pack.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/isotope/isotope-triger.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/countdown/jquery.syotimer.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/slick/slick.min.js")"></script>
+    <script src="@Url.Content("~/Content/js/custom.js")"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+
+    @RenderSection("Scripts", false)
+
+    <script>
+        $(document).ready(function () {
+            $('#spanBuscar').click(function () {
+                $('#btnBuscar').click();
+            });
+
+            $('#syncBtn').click(function (e) {
+                e.preventDefault();
+                $('#syncBtn').text("Sincronizando...");
+                $('#syncBtn').prop('disabled', true);
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/Sync",
+                    data: {}
+                }).done(function (message) {
+                    $('#messageSync').text(message);
+                    $('#syncBtn').text("Sincronizar");
+                    $('#syncBtn').prop('disabled', false);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

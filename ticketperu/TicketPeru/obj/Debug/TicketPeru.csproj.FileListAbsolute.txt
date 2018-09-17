@@ -1,0 +1,744 @@
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\ApplicationInsights.config
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\TicketPeru.dll.config
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\TicketPeru.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\TicketPeru.pdb
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\csc.exe
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\csc.exe.config
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\csc.rsp
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\csi.exe
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\csi.exe.config
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\csi.rsp
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.AppContext.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Collections.Immutable.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Console.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Diagnostics.Process.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.IO.Compression.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.IO.FileSystem.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.IO.Pipes.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Reflection.Metadata.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Security.AccessControl.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Claims.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Threading.Thread.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.ValueTuple.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Xml.XPath.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\vbc.exe
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\vbc.exe.config
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\vbc.rsp
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\VBCSCompiler.exe
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\roslyn\VBCSCompiler.exe.config
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Antlr3.Runtime.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\EntityFramework.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\EntityFramework.SqlServer.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.DependencyCollector.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.Web.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.WindowsServer.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.ApplicationInsights.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Google.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Web.Infrastructure.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Newtonsoft.Json.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Owin.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.Helpers.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.Mvc.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.Optimization.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.Razor.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.WebPages.Deployment.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.WebPages.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.WebPages.Razor.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\WebGrease.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.Helpers.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.Mvc.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.Razor.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.WebPages.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.WebPages.Deployment.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.WebPages.Razor.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\System.Web.Optimization.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Antlr3.Runtime.pdb
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Newtonsoft.Json.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\EntityFramework.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\EntityFramework.SqlServer.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Google.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.ApplicationInsights.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.DependencyCollector.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.WindowsServer.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\bin\Microsoft.AI.Web.xml
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.csprojResolveAssemblyReference.cache
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.Migrations.Initial.resources
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.csproj.GenerateResource.Cache
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.dll
+D:\Repositorios Zephier\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.pdb
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\ApplicationInsights.config
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\TicketPeru.dll.config
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\TicketPeru.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\TicketPeru.pdb
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\csc.exe
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\csc.exe.config
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\csc.rsp
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\csi.exe
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\csi.exe.config
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\csi.rsp
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.AppContext.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Collections.Immutable.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Console.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Diagnostics.Process.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.IO.Compression.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.IO.FileSystem.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.IO.Pipes.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Reflection.Metadata.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Security.AccessControl.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Claims.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Threading.Thread.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.ValueTuple.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Xml.XPath.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\vbc.exe
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\vbc.exe.config
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\vbc.rsp
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\VBCSCompiler.exe
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\roslyn\VBCSCompiler.exe.config
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Antlr3.Runtime.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\EntityFramework.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\EntityFramework.SqlServer.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.DependencyCollector.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.Web.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.WindowsServer.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.ApplicationInsights.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Google.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Web.Infrastructure.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Newtonsoft.Json.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Owin.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.Helpers.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.Mvc.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.Optimization.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.Razor.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.WebPages.Deployment.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.WebPages.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.WebPages.Razor.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\WebGrease.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.Helpers.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.Mvc.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.Razor.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.WebPages.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.WebPages.Deployment.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.WebPages.Razor.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\System.Web.Optimization.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Antlr3.Runtime.pdb
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Newtonsoft.Json.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\EntityFramework.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\EntityFramework.SqlServer.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Google.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.ApplicationInsights.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.DependencyCollector.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.WindowsServer.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\bin\Microsoft.AI.Web.xml
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.Migrations.Initial.resources
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.csproj.GenerateResource.Cache
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.dll
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.pdb
+C:\Binary\documentos\Comercio Exterior\Clientes\TicketPeru\fuentes\Ticket Peru\Ticket Peru\TicketPeru\obj\Debug\TicketPeru.csprojResolveAssemblyReference.cache
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.IO.Compression.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\VBCSCompiler.exe
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\ApplicationInsights.config
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\TicketPeru.dll.config
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\TicketPeru.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\TicketPeru.pdb
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\csc.exe
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\csc.exe.config
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\csc.rsp
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\csi.exe
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\csi.exe.config
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\csi.rsp
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.AppContext.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Collections.Immutable.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Console.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Diagnostics.Process.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.IO.FileSystem.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.IO.Pipes.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Reflection.Metadata.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Security.AccessControl.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Security.Claims.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Threading.Thread.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.ValueTuple.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Xml.XPath.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\vbc.exe
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\vbc.exe.config
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\vbc.rsp
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\roslyn\VBCSCompiler.exe.config
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Antlr3.Runtime.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\EntityFramework.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\EntityFramework.SqlServer.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.DependencyCollector.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.Web.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.WindowsServer.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.ApplicationInsights.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.Google.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Web.Infrastructure.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Newtonsoft.Json.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Owin.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.Helpers.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.Mvc.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.Optimization.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.Razor.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.WebPages.Deployment.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.WebPages.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.WebPages.Razor.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\WebGrease.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.Helpers.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.Mvc.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.Razor.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.WebPages.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.WebPages.Deployment.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.WebPages.Razor.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\System.Web.Optimization.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Antlr3.Runtime.pdb
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Newtonsoft.Json.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\EntityFramework.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\EntityFramework.SqlServer.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.Google.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.ApplicationInsights.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.DependencyCollector.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.WindowsServer.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\Microsoft.AI.Web.xml
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\es\System.Web.Helpers.resources.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\es\System.Web.Mvc.resources.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\es\System.Web.Razor.resources.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\es\System.Web.WebPages.resources.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\obj\Debug\TicketPeru.Migrations.Initial.resources
+C:\Binary\Proyectos\TicketPeru\TicketPeru\obj\Debug\TicketPeru.csproj.GenerateResource.Cache
+C:\Binary\Proyectos\TicketPeru\TicketPeru\obj\Debug\TicketPeru.dll
+C:\Binary\Proyectos\TicketPeru\TicketPeru\obj\Debug\TicketPeru.pdb
+C:\Binary\Proyectos\TicketPeru\TicketPeru\obj\Debug\TicketPeru.csprojResolveAssemblyReference.cache
+C:\ticketperu\TicketPeru\bin\ApplicationInsights.config
+C:\ticketperu\TicketPeru\bin\TicketPeru.dll.config
+C:\ticketperu\TicketPeru\bin\TicketPeru.dll
+C:\ticketperu\TicketPeru\bin\TicketPeru.pdb
+C:\ticketperu\TicketPeru\bin\roslyn\csc.exe
+C:\ticketperu\TicketPeru\bin\roslyn\csc.exe.config
+C:\ticketperu\TicketPeru\bin\roslyn\csc.rsp
+C:\ticketperu\TicketPeru\bin\roslyn\csi.exe
+C:\ticketperu\TicketPeru\bin\roslyn\csi.exe.config
+C:\ticketperu\TicketPeru\bin\roslyn\csi.rsp
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ticketperu\TicketPeru\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.AppContext.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Collections.Immutable.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Console.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.Process.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.IO.Compression.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.IO.Pipes.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Reflection.Metadata.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Security.AccessControl.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Security.Claims.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Security.Principal.Windows.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Threading.Thread.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.ValueTuple.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Xml.XmlDocument.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Xml.XPath.dll
+C:\ticketperu\TicketPeru\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\ticketperu\TicketPeru\bin\roslyn\vbc.exe
+C:\ticketperu\TicketPeru\bin\roslyn\vbc.exe.config
+C:\ticketperu\TicketPeru\bin\roslyn\vbc.rsp
+C:\ticketperu\TicketPeru\bin\roslyn\VBCSCompiler.exe
+C:\ticketperu\TicketPeru\bin\roslyn\VBCSCompiler.exe.config
+C:\ticketperu\TicketPeru\bin\Antlr3.Runtime.dll
+C:\ticketperu\TicketPeru\bin\EntityFramework.dll
+C:\ticketperu\TicketPeru\bin\EntityFramework.SqlServer.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.Agent.Intercept.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.DependencyCollector.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.Web.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.WindowsServer.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.ApplicationInsights.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Core.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Cookies.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Facebook.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Google.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.OAuth.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Twitter.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.Web.Infrastructure.dll
+C:\ticketperu\TicketPeru\bin\Newtonsoft.Json.dll
+C:\ticketperu\TicketPeru\bin\Owin.dll
+C:\ticketperu\TicketPeru\bin\System.Web.Helpers.dll
+C:\ticketperu\TicketPeru\bin\System.Web.Mvc.dll
+C:\ticketperu\TicketPeru\bin\System.Web.Optimization.dll
+C:\ticketperu\TicketPeru\bin\System.Web.Razor.dll
+C:\ticketperu\TicketPeru\bin\System.Web.WebPages.Deployment.dll
+C:\ticketperu\TicketPeru\bin\System.Web.WebPages.dll
+C:\ticketperu\TicketPeru\bin\System.Web.WebPages.Razor.dll
+C:\ticketperu\TicketPeru\bin\WebGrease.dll
+C:\ticketperu\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ticketperu\TicketPeru\bin\System.Web.Helpers.xml
+C:\ticketperu\TicketPeru\bin\System.Web.Mvc.xml
+C:\ticketperu\TicketPeru\bin\System.Web.Razor.xml
+C:\ticketperu\TicketPeru\bin\System.Web.WebPages.xml
+C:\ticketperu\TicketPeru\bin\System.Web.WebPages.Deployment.xml
+C:\ticketperu\TicketPeru\bin\System.Web.WebPages.Razor.xml
+C:\ticketperu\TicketPeru\bin\System.Web.Optimization.xml
+C:\ticketperu\TicketPeru\bin\Antlr3.Runtime.pdb
+C:\ticketperu\TicketPeru\bin\Newtonsoft.Json.xml
+C:\ticketperu\TicketPeru\bin\EntityFramework.xml
+C:\ticketperu\TicketPeru\bin\EntityFramework.SqlServer.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Core.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Facebook.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Cookies.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.OAuth.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Google.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Twitter.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.ApplicationInsights.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.DependencyCollector.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.WindowsServer.xml
+C:\ticketperu\TicketPeru\bin\Microsoft.AI.Web.xml
+C:\ticketperu\TicketPeru\bin\es\System.Web.Helpers.resources.dll
+C:\ticketperu\TicketPeru\bin\es\System.Web.Mvc.resources.dll
+C:\ticketperu\TicketPeru\bin\es\System.Web.Razor.resources.dll
+C:\ticketperu\TicketPeru\bin\es\System.Web.WebPages.resources.dll
+C:\ticketperu\TicketPeru\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\ticketperu\TicketPeru\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\ticketperu\TicketPeru\obj\Debug\TicketPeru.csprojResolveAssemblyReference.cache
+C:\ticketperu\TicketPeru\obj\Debug\TicketPeru.Migrations.Initial.resources
+C:\ticketperu\TicketPeru\obj\Debug\TicketPeru.csproj.GenerateResource.Cache
+C:\ticketperu\TicketPeru\obj\Debug\TicketPeru.dll
+C:\ticketperu\TicketPeru\obj\Debug\TicketPeru.pdb
+D:\04-Teletiket\ticketperu\TicketPeru\bin\ApplicationInsights.config
+D:\04-Teletiket\ticketperu\TicketPeru\bin\TicketPeru.dll.config
+D:\04-Teletiket\ticketperu\TicketPeru\bin\TicketPeru.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\TicketPeru.pdb
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\csc.exe
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\csc.exe.config
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\csc.rsp
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\csi.exe
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\csi.exe.config
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\csi.rsp
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.AppContext.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Collections.Immutable.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Console.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.Process.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.IO.Compression.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.IO.Pipes.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Reflection.Metadata.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Security.AccessControl.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Security.Claims.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Security.Principal.Windows.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Threading.Thread.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.ValueTuple.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Xml.XmlDocument.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Xml.XPath.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\vbc.exe
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\vbc.exe.config
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\vbc.rsp
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\VBCSCompiler.exe
+D:\04-Teletiket\ticketperu\TicketPeru\bin\roslyn\VBCSCompiler.exe.config
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Antlr3.Runtime.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\EntityFramework.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\EntityFramework.SqlServer.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.Agent.Intercept.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.DependencyCollector.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.Web.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.WindowsServer.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.ApplicationInsights.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Core.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Cookies.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Facebook.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Google.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.OAuth.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Twitter.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Web.Infrastructure.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Newtonsoft.Json.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Owin.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.Helpers.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.Mvc.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.Optimization.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.Razor.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.WebPages.Deployment.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.WebPages.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.WebPages.Razor.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\WebGrease.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.Helpers.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.Mvc.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.Razor.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.WebPages.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.WebPages.Deployment.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.WebPages.Razor.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\System.Web.Optimization.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Antlr3.Runtime.pdb
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Newtonsoft.Json.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\EntityFramework.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\EntityFramework.SqlServer.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Core.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Facebook.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Cookies.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.OAuth.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Google.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Twitter.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.ApplicationInsights.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.DependencyCollector.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.WindowsServer.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\Microsoft.AI.Web.xml
+D:\04-Teletiket\ticketperu\TicketPeru\bin\es\System.Web.Helpers.resources.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\es\System.Web.Mvc.resources.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\es\System.Web.Razor.resources.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\es\System.Web.WebPages.resources.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\04-Teletiket\ticketperu\TicketPeru\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\04-Teletiket\ticketperu\TicketPeru\obj\Debug\TicketPeru.csprojResolveAssemblyReference.cache
+D:\04-Teletiket\ticketperu\TicketPeru\obj\Debug\TicketPeru.Migrations.Initial.resources
+D:\04-Teletiket\ticketperu\TicketPeru\obj\Debug\TicketPeru.csproj.GenerateResource.Cache
+D:\04-Teletiket\ticketperu\TicketPeru\obj\Debug\TicketPeru.dll
+D:\04-Teletiket\ticketperu\TicketPeru\obj\Debug\TicketPeru.pdb
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\ApplicationInsights.config
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\TicketPeru.dll.config
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\TicketPeru.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\TicketPeru.pdb
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\csc.exe
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\csc.exe.config
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\csc.rsp
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\csi.exe
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\csi.exe.config
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\csi.rsp
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.AppContext.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Collections.Immutable.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Console.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.Process.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.IO.Compression.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.IO.Pipes.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Reflection.Metadata.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Security.AccessControl.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Security.Claims.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Threading.Thread.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.ValueTuple.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Xml.XPath.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\vbc.exe
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\vbc.exe.config
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\vbc.rsp
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\VBCSCompiler.exe
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\roslyn\VBCSCompiler.exe.config
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Antlr3.Runtime.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\EntityFramework.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\EntityFramework.SqlServer.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.DependencyCollector.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.Web.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.WindowsServer.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.ApplicationInsights.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Google.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Web.Infrastructure.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Newtonsoft.Json.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Owin.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.Helpers.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.Mvc.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.Optimization.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.Razor.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.WebPages.Deployment.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.WebPages.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.WebPages.Razor.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\WebGrease.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.Helpers.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.Mvc.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.Razor.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.WebPages.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.WebPages.Deployment.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.WebPages.Razor.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\System.Web.Optimization.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Antlr3.Runtime.pdb
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Newtonsoft.Json.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\EntityFramework.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\EntityFramework.SqlServer.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Google.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.ApplicationInsights.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.DependencyCollector.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.WindowsServer.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\Microsoft.AI.Web.xml
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\es\System.Web.Helpers.resources.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\es\System.Web.Mvc.resources.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\es\System.Web.Razor.resources.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\es\System.Web.WebPages.resources.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\obj\Debug\TicketPeru.csprojResolveAssemblyReference.cache
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\obj\Debug\TicketPeru.Migrations.Initial.resources
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\obj\Debug\TicketPeru.csproj.GenerateResource.Cache
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\obj\Debug\TicketPeru.dll
+F:\Proyectos-jhoel\02-avance\ticketperu\TicketPeru\obj\Debug\TicketPeru.pdb
